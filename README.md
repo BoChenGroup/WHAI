@@ -18,12 +18,17 @@ minimally documented but fully functional.
 The folder includes the following files:
 
 joint_main_online.py: The main function to run our model.
+
 model_layer1.py: The module function realizing one-layer model.
+
 model_layer2.py: The module function realizing two-layer model.
+
 model_layer3.py: The module function realizing three-layer model.
+
 PGBN_sampler.py: The module function realizing some sampling in our model.
 
 libCrt_Multi_Sample.so: A sampling function to sample from CRT distribution (written based on C and used only in Linux).
+
 libMulti_Sample.so: A sampling function to sample from Multinomial distribution (written based on C and used only in Linux).
 
 You can use our code in Linux system with Theano package. If you have any questions, please contact us.
