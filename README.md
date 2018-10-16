@@ -3,6 +3,14 @@ This is the demo code for "WHAI: Weibull Hybrid Autoencoding Inference for Deep 
 
 ## Introduction
 This code implement the Weibull Hybrid Autoencoding Inference (WHAI), from the 2018 ICLR paper with the title "WHAI: Weibull Hybrid Autoencoding Inference for Deep Topic Modeling". 
+
+To train an inference network jointly with a deep generative topic model, making
+it both scalable to big corpora and fast in out-of-sample prediction, we develop
+Weibull hybrid autoencoding inference (WHAI) for deep latent Dirichlet allocation,
+which infers posterior samples via a hybrid of stochastic-gradient MCMC
+and autoencoding variational Bayes. The effectiveness and efficiency of WHAI
+are illustrated with experiments on big corpora.
+
 This source code is made publicly available for reproducibility purposes, it is not optimized for speed, 
 minimally documented but fully functional.
 
