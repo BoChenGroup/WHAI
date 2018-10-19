@@ -53,7 +53,7 @@ Please cite our ICLR paper in your publications if it helps your research:
 
 ## Data
 	
-The Original 20news and MNIST datasets are included in the data folder. If you want to calulate the
+The Original 20news and MNIST datasets are included in the data folder. If you want to calculate the
 per-heldout-word perplexity, you may need to partition the date according to the describtion in section 3.1.
 
 RCV1 dataset are provided by Cong et al. (2017)
