@@ -31,6 +31,8 @@ libCrt_Multi_Sample.so: A sampling function to sample from CRT distribution (wri
 
 libMulti_Sample.so: A sampling function to sample from Multinomial distribution (written based on C and used only in Linux).
 
+perplexity.m: A function to calculate the perplexity.
+
 You can use our code in Linux system with Theano package. If you have any questions, please contact us.
 
 ## License
