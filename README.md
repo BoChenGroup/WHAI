@@ -31,7 +31,7 @@ libCrt_Multi_Sample.so: A sampling function to sample from CRT distribution (wri
 
 libMulti_Sample.so: A sampling function to sample from Multinomial distribution (written based on C and used only in Linux).
 
-perplexity.m: A function to calculate the perplexity.
+perplexity.m: A function to calculate the perplexity according to Equation (11) in our paper.
 
 You can use our code in Linux system with Theano package. If you have any questions, please contact us.
 
@@ -53,7 +53,8 @@ Please cite our ICLR paper in your publications if it helps your research:
 
 ## Data
 	
-The 20news and MNIST datasets are included in the data folder.
+The Original 20news and MNIST datasets are included in the data folder. If you want to calulate the
+per-heldout-word perplexity, you may need to partition the date according to the describtion in section 3.1.
 
 RCV1 dataset are provided by Cong et al. (2017)
 
